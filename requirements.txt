@@ -1,0 +1,3 @@
+streamlink>=2.0.0
+flask
+waitress
