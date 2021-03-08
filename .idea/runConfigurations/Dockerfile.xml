@@ -5,9 +5,16 @@
         <option name="imageTag" value="" />
         <option name="buildCliOptions" value="" />
         <option name="command" value="" />
-        <option name="containerName" value="" />
+        <option name="containerName" value="icestream_server" />
         <option name="entrypoint" value="" />
-        <option name="publishAllPorts" value="true" />
+        <option name="portBindings">
+          <list>
+            <DockerPortBindingImpl>
+              <option name="containerPort" value="8080" />
+              <option name="hostPort" value="8080" />
+            </DockerPortBindingImpl>
+          </list>
+        </option>
         <option name="commandLineOptions" value="" />
         <option name="sourceFilePath" value="Dockerfile" />
       </settings>
